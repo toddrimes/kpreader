@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F5A49091489436D00C02270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A49081489436D00C02270 /* UIKit.framework */; };
+		5F5A490B1489436D00C02270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A490A1489436D00C02270 /* Foundation.framework */; };
+		5F5A490D1489436D00C02270 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A490C1489436D00C02270 /* CoreGraphics.framework */; };
+		5F5A49131489436D00C02270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A49111489436D00C02270 /* InfoPlist.strings */; };
+		5F5A49151489436D00C02270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A49141489436D00C02270 /* main.m */; };
+		5F5A49191489436D00C02270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A49181489436D00C02270 /* AppDelegate.m */; };
+		5F5A491C1489436D00C02270 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A491A1489436D00C02270 /* MainStoryboard.storyboard */; };
+		5F5A491F1489436D00C02270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A491E1489436D00C02270 /* ViewController.m */; };
+		5F5A49271489436D00C02270 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A49261489436D00C02270 /* SenTestingKit.framework */; };
+		5F5A49281489436D00C02270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A49081489436D00C02270 /* UIKit.framework */; };
+		5F5A49291489436D00C02270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A490A1489436D00C02270 /* Foundation.framework */; };
+		5F5A49311489436D00C02270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A492F1489436D00C02270 /* InfoPlist.strings */; };
+		5F5A49341489436D00C02270 /* kpreaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A49331489436D00C02270 /* kpreaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F5A492A1489436D00C02270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F5A48FB1489436D00C02270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F5A49031489436D00C02270;
+			remoteInfo = kpreader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5A49041489436D00C02270 /* kpreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kpreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5A49081489436D00C02270 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F5A490A1489436D00C02270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F5A490C1489436D00C02270 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F5A49101489436D00C02270 /* kpreader-Info.plist */ = {isa = PBXFileReference; path = "kpreader-Info.plist"; sourceTree = "<group>"; };
+		5F5A49121489436D00C02270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F5A49141489436D00C02270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F5A49161489436D00C02270 /* kpreader-Prefix.pch */ = {isa = PBXFileReference; path = "kpreader-Prefix.pch"; sourceTree = "<group>"; };
+		5F5A49171489436D00C02270 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F5A49181489436D00C02270 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F5A491B1489436D00C02270 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5F5A491D1489436D00C02270 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5F5A491E1489436D00C02270 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F5A49251489436D00C02270 /* kpreaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kpreaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5A49261489436D00C02270 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5F5A492E1489436D00C02270 /* kpreaderTests-Info.plist */ = {isa = PBXFileReference; path = "kpreaderTests-Info.plist"; sourceTree = "<group>"; };
+		5F5A49301489436D00C02270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F5A49321489436D00C02270 /* kpreaderTests.h */ = {isa = PBXFileReference; path = kpreaderTests.h; sourceTree = "<group>"; };
+		5F5A49331489436D00C02270 /* kpreaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kpreaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F5A49011489436D00C02270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A49091489436D00C02270 /* UIKit.framework in Frameworks */,
+				5F5A490B1489436D00C02270 /* Foundation.framework in Frameworks */,
+				5F5A490D1489436D00C02270 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5A49211489436D00C02270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A49271489436D00C02270 /* SenTestingKit.framework in Frameworks */,
+				5F5A49281489436D00C02270 /* UIKit.framework in Frameworks */,
+				5F5A49291489436D00C02270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F5A48F91489436D00C02270 = {
+			isa = PBXGroup;
+			children = (
+				5F5A490E1489436D00C02270 /* kpreader */,
+				5F5A492C1489436D00C02270 /* kpreaderTests */,
+				5F5A49071489436D00C02270 /* Frameworks */,
+				5F5A49051489436D00C02270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F5A49051489436D00C02270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A49041489436D00C02270 /* kpreader.app */,
+				5F5A49251489436D00C02270 /* kpreaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F5A49071489436D00C02270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A49081489436D00C02270 /* UIKit.framework */,
+				5F5A490A1489436D00C02270 /* Foundation.framework */,
+				5F5A490C1489436D00C02270 /* CoreGraphics.framework */,
+				5F5A49261489436D00C02270 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F5A490E1489436D00C02270 /* kpreader */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A49171489436D00C02270 /* AppDelegate.h */,
+				5F5A49181489436D00C02270 /* AppDelegate.m */,
+				5F5A491A1489436D00C02270 /* MainStoryboard.storyboard */,
+				5F5A491D1489436D00C02270 /* ViewController.h */,
+				5F5A491E1489436D00C02270 /* ViewController.m */,
+				5F5A490F1489436D00C02270 /* Supporting Files */,
+			);
+			path = kpreader;
+			sourceTree = "<group>";
+		};
+		5F5A490F1489436D00C02270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A49101489436D00C02270 /* kpreader-Info.plist */,
+				5F5A49111489436D00C02270 /* InfoPlist.strings */,
+				5F5A49141489436D00C02270 /* main.m */,
+				5F5A49161489436D00C02270 /* kpreader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F5A492C1489436D00C02270 /* kpreaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A49321489436D00C02270 /* kpreaderTests.h */,
+				5F5A49331489436D00C02270 /* kpreaderTests.m */,
+				5F5A492D1489436D00C02270 /* Supporting Files */,
+			);
+			path = kpreaderTests;
+			sourceTree = "<group>";
+		};
+		5F5A492D1489436D00C02270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F5A492E1489436D00C02270 /* kpreaderTests-Info.plist */,
+				5F5A492F1489436D00C02270 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F5A49031489436D00C02270 /* kpreader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5A49371489436D00C02270 /* Build configuration list for PBXNativeTarget "kpreader" */;
+			buildPhases = (
+				5F5A49001489436D00C02270 /* Sources */,
+				5F5A49011489436D00C02270 /* Frameworks */,
+				5F5A49021489436D00C02270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kpreader;
+			productName = kpreader;
+			productReference = 5F5A49041489436D00C02270 /* kpreader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F5A49241489436D00C02270 /* kpreaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F5A493A1489436D00C02270 /* Build configuration list for PBXNativeTarget "kpreaderTests" */;
+			buildPhases = (
+				5F5A49201489436D00C02270 /* Sources */,
+				5F5A49211489436D00C02270 /* Frameworks */,
+				5F5A49221489436D00C02270 /* Resources */,
+				5F5A49231489436D00C02270 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F5A492B1489436D00C02270 /* PBXTargetDependency */,
+			);
+			name = kpreaderTests;
+			productName = kpreaderTests;
+			productReference = 5F5A49251489436D00C02270 /* kpreaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F5A48FB1489436D00C02270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Rimes Media";
+			};
+			buildConfigurationList = 5F5A48FE1489436D00C02270 /* Build configuration list for PBXProject "kpreader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F5A48F91489436D00C02270;
+			productRefGroup = 5F5A49051489436D00C02270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F5A49031489436D00C02270 /* kpreader */,
+				5F5A49241489436D00C02270 /* kpreaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F5A49021489436D00C02270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A49131489436D00C02270 /* InfoPlist.strings in Resources */,
+				5F5A491C1489436D00C02270 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5A49221489436D00C02270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A49311489436D00C02270 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F5A49231489436D00C02270 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F5A49001489436D00C02270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A49151489436D00C02270 /* main.m in Sources */,
+				5F5A49191489436D00C02270 /* AppDelegate.m in Sources */,
+				5F5A491F1489436D00C02270 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5A49201489436D00C02270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A49341489436D00C02270 /* kpreaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F5A492B1489436D00C02270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F5A49031489436D00C02270 /* kpreader */;
+			targetProxy = 5F5A492A1489436D00C02270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F5A49111489436D00C02270 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5A49121489436D00C02270 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F5A491A1489436D00C02270 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5A491B1489436D00C02270 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5F5A492F1489436D00C02270 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F5A49301489436D00C02270 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F5A49351489436D00C02270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F5A49361489436D00C02270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F5A49381489436D00C02270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
+				INFOPLIST_FILE = "kpreader/kpreader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F5A49391489436D00C02270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
+				INFOPLIST_FILE = "kpreader/kpreader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F5A493B1489436D00C02270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kpreader.app/kpreader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
+				INFOPLIST_FILE = "kpreaderTests/kpreaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5F5A493C1489436D00C02270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kpreader.app/kpreader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
+				INFOPLIST_FILE = "kpreaderTests/kpreaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F5A48FE1489436D00C02270 /* Build configuration list for PBXProject "kpreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5A49351489436D00C02270 /* Debug */,
+				5F5A49361489436D00C02270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F5A49371489436D00C02270 /* Build configuration list for PBXNativeTarget "kpreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5A49381489436D00C02270 /* Debug */,
+				5F5A49391489436D00C02270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F5A493A1489436D00C02270 /* Build configuration list for PBXNativeTarget "kpreaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F5A493B1489436D00C02270 /* Debug */,
+				5F5A493C1489436D00C02270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F5A48FB1489436D00C02270 /* Project object */;
+}
