@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/kpreader.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>org.karmapoints.kpreader</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<real>1</real>
+	<key>CreationDate</key>
+	<date>2011-12-04T05:15:53Z</date>
+	<key>Name</key>
+	<string>kpreader</string>
+	<key>SchemeName</key>
+	<string>kpreader</string>
+</dict>
+</plist>

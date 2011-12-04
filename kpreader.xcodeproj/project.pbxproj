@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F526AB2148955A900AD6704 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F526AAC148955A900AD6704 /* libzbar.a */; };
+		5F526AB3148955A900AD6704 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F526AAE148955A900AD6704 /* zbar-back.png */; };
+		5F526AB4148955A900AD6704 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F526AAF148955A900AD6704 /* zbar-help.html */; };
+		5F526AB5148955A900AD6704 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F526AB0148955A900AD6704 /* zbar-helpicons.png */; };
+		5F526AB6148955A900AD6704 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F526AB1148955A900AD6704 /* zbar-samples.png */; };
+		5F526ABD1489567800AD6704 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F526AB81489567800AD6704 /* AVFoundation.framework */; };
+		5F526ABE1489567800AD6704 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F526AB91489567800AD6704 /* CoreMedia.framework */; };
+		5F526ABF1489567800AD6704 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F526ABA1489567800AD6704 /* CoreVideo.framework */; };
+		5F526AC01489567800AD6704 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F526ABB1489567800AD6704 /* libiconv.dylib */; };
+		5F526AC11489567800AD6704 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F526ABC1489567800AD6704 /* QuartzCore.framework */; };
 		5F5A49091489436D00C02270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A49081489436D00C02270 /* UIKit.framework */; };
 		5F5A490B1489436D00C02270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A490A1489436D00C02270 /* Foundation.framework */; };
 		5F5A490D1489436D00C02270 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A490C1489436D00C02270 /* CoreGraphics.framework */; };
@@ -14,44 +24,55 @@
 		5F5A49151489436D00C02270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A49141489436D00C02270 /* main.m */; };
 		5F5A49191489436D00C02270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A49181489436D00C02270 /* AppDelegate.m */; };
 		5F5A491C1489436D00C02270 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A491A1489436D00C02270 /* MainStoryboard.storyboard */; };
-		5F5A491F1489436D00C02270 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A491E1489436D00C02270 /* ViewController.m */; };
-		5F5A49271489436D00C02270 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A49261489436D00C02270 /* SenTestingKit.framework */; };
-		5F5A49281489436D00C02270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A49081489436D00C02270 /* UIKit.framework */; };
-		5F5A49291489436D00C02270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5A490A1489436D00C02270 /* Foundation.framework */; };
-		5F5A49311489436D00C02270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A492F1489436D00C02270 /* InfoPlist.strings */; };
-		5F5A49341489436D00C02270 /* kpreaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A49331489436D00C02270 /* kpreaderTests.m */; };
+		5F5A491F1489436D00C02270 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A491E1489436D00C02270 /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5F5A492A1489436D00C02270 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F5A48FB1489436D00C02270 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F5A49031489436D00C02270;
-			remoteInfo = kpreader;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		5F526A98148955A900AD6704 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		5F526A99148955A900AD6704 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		5F526A9A148955A900AD6704 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		5F526A9B148955A900AD6704 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		5F526A9C148955A900AD6704 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		5F526A9D148955A900AD6704 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		5F526A9E148955A900AD6704 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		5F526A9F148955A900AD6704 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		5F526AA0148955A900AD6704 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		5F526AA1148955A900AD6704 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		5F526AA2148955A900AD6704 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		5F526AA3148955A900AD6704 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		5F526AA4148955A900AD6704 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		5F526AA5148955A900AD6704 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		5F526AA6148955A900AD6704 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		5F526AA7148955A900AD6704 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		5F526AA8148955A900AD6704 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		5F526AA9148955A900AD6704 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		5F526AAA148955A900AD6704 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		5F526AAB148955A900AD6704 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		5F526AAC148955A900AD6704 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		5F526AAE148955A900AD6704 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		5F526AAF148955A900AD6704 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		5F526AB0148955A900AD6704 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		5F526AB1148955A900AD6704 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		5F526AB81489567800AD6704 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5F526AB91489567800AD6704 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5F526ABA1489567800AD6704 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5F526ABB1489567800AD6704 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		5F526ABC1489567800AD6704 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5F5A49041489436D00C02270 /* kpreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kpreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5A49081489436D00C02270 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5F5A490A1489436D00C02270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F5A490C1489436D00C02270 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5F5A49101489436D00C02270 /* kpreader-Info.plist */ = {isa = PBXFileReference; path = "kpreader-Info.plist"; sourceTree = "<group>"; };
+		5F5A49101489436D00C02270 /* kpreader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kpreader-Info.plist"; sourceTree = "<group>"; };
 		5F5A49121489436D00C02270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F5A49141489436D00C02270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F5A49161489436D00C02270 /* kpreader-Prefix.pch */ = {isa = PBXFileReference; path = "kpreader-Prefix.pch"; sourceTree = "<group>"; };
-		5F5A49171489436D00C02270 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F5A49161489436D00C02270 /* kpreader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kpreader-Prefix.pch"; sourceTree = "<group>"; };
+		5F5A49171489436D00C02270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5F5A49181489436D00C02270 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5F5A491B1489436D00C02270 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5F5A491D1489436D00C02270 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		5F5A491E1489436D00C02270 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5F5A49251489436D00C02270 /* kpreaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kpreaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5A491D1489436D00C02270 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		5F5A491E1489436D00C02270 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 		5F5A49261489436D00C02270 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5F5A492E1489436D00C02270 /* kpreaderTests-Info.plist */ = {isa = PBXFileReference; path = "kpreaderTests-Info.plist"; sourceTree = "<group>"; };
-		5F5A49301489436D00C02270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5F5A49321489436D00C02270 /* kpreaderTests.h */ = {isa = PBXFileReference; path = kpreaderTests.h; sourceTree = "<group>"; };
-		5F5A49331489436D00C02270 /* kpreaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kpreaderTests.m; sourceTree = "<group>"; };
+		5FBD8818148B3655001A68DC /* kpreader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = kpreader.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,30 +80,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F526ABD1489567800AD6704 /* AVFoundation.framework in Frameworks */,
+				5F526ABE1489567800AD6704 /* CoreMedia.framework in Frameworks */,
+				5F526ABF1489567800AD6704 /* CoreVideo.framework in Frameworks */,
+				5F526AC01489567800AD6704 /* libiconv.dylib in Frameworks */,
+				5F526AC11489567800AD6704 /* QuartzCore.framework in Frameworks */,
 				5F5A49091489436D00C02270 /* UIKit.framework in Frameworks */,
 				5F5A490B1489436D00C02270 /* Foundation.framework in Frameworks */,
 				5F5A490D1489436D00C02270 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F5A49211489436D00C02270 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F5A49271489436D00C02270 /* SenTestingKit.framework in Frameworks */,
-				5F5A49281489436D00C02270 /* UIKit.framework in Frameworks */,
-				5F5A49291489436D00C02270 /* Foundation.framework in Frameworks */,
+				5F526AB2148955A900AD6704 /* libzbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F526A94148955A900AD6704 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F526A95148955A900AD6704 /* Headers */,
+				5F526AAC148955A900AD6704 /* libzbar.a */,
+				5F526AAD148955A900AD6704 /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		5F526A95148955A900AD6704 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5F526A96148955A900AD6704 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		5F526A96148955A900AD6704 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F526A97148955A900AD6704 /* zbar */,
+				5F526AA1148955A900AD6704 /* zbar.h */,
+				5F526AA2148955A900AD6704 /* ZBarCameraSimulator.h */,
+				5F526AA3148955A900AD6704 /* ZBarCaptureReader.h */,
+				5F526AA4148955A900AD6704 /* ZBarHelpController.h */,
+				5F526AA5148955A900AD6704 /* ZBarImage.h */,
+				5F526AA6148955A900AD6704 /* ZBarImageScanner.h */,
+				5F526AA7148955A900AD6704 /* ZBarReaderController.h */,
+				5F526AA8148955A900AD6704 /* ZBarReaderView.h */,
+				5F526AA9148955A900AD6704 /* ZBarReaderViewController.h */,
+				5F526AAA148955A900AD6704 /* ZBarSDK.h */,
+				5F526AAB148955A900AD6704 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		5F526A97148955A900AD6704 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				5F526A98148955A900AD6704 /* Decoder.h */,
+				5F526A99148955A900AD6704 /* Exception.h */,
+				5F526A9A148955A900AD6704 /* Image.h */,
+				5F526A9B148955A900AD6704 /* ImageScanner.h */,
+				5F526A9C148955A900AD6704 /* Processor.h */,
+				5F526A9D148955A900AD6704 /* Scanner.h */,
+				5F526A9E148955A900AD6704 /* Symbol.h */,
+				5F526A9F148955A900AD6704 /* Video.h */,
+				5F526AA0148955A900AD6704 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		5F526AAD148955A900AD6704 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F526AAE148955A900AD6704 /* zbar-back.png */,
+				5F526AAF148955A900AD6704 /* zbar-help.html */,
+				5F526AB0148955A900AD6704 /* zbar-helpicons.png */,
+				5F526AB1148955A900AD6704 /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5F5A48F91489436D00C02270 = {
 			isa = PBXGroup;
 			children = (
+				5F526AB81489567800AD6704 /* AVFoundation.framework */,
+				5F526AB91489567800AD6704 /* CoreMedia.framework */,
+				5F526ABA1489567800AD6704 /* CoreVideo.framework */,
+				5F526ABB1489567800AD6704 /* libiconv.dylib */,
+				5F526ABC1489567800AD6704 /* QuartzCore.framework */,
+				5F526A94148955A900AD6704 /* ZBarSDK */,
 				5F5A490E1489436D00C02270 /* kpreader */,
-				5F5A492C1489436D00C02270 /* kpreaderTests */,
 				5F5A49071489436D00C02270 /* Frameworks */,
 				5F5A49051489436D00C02270 /* Products */,
 			);
@@ -92,7 +178,6 @@
 			isa = PBXGroup;
 			children = (
 				5F5A49041489436D00C02270 /* kpreader.app */,
-				5F5A49251489436D00C02270 /* kpreaderTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,11 +196,12 @@
 		5F5A490E1489436D00C02270 /* kpreader */ = {
 			isa = PBXGroup;
 			children = (
+				5FBD8818148B3655001A68DC /* kpreader.entitlements */,
 				5F5A49171489436D00C02270 /* AppDelegate.h */,
 				5F5A49181489436D00C02270 /* AppDelegate.m */,
 				5F5A491A1489436D00C02270 /* MainStoryboard.storyboard */,
-				5F5A491D1489436D00C02270 /* ViewController.h */,
-				5F5A491E1489436D00C02270 /* ViewController.m */,
+				5F5A491D1489436D00C02270 /* ScanViewController.h */,
+				5F5A491E1489436D00C02270 /* ScanViewController.m */,
 				5F5A490F1489436D00C02270 /* Supporting Files */,
 			);
 			path = kpreader;
@@ -128,25 +214,6 @@
 				5F5A49111489436D00C02270 /* InfoPlist.strings */,
 				5F5A49141489436D00C02270 /* main.m */,
 				5F5A49161489436D00C02270 /* kpreader-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5F5A492C1489436D00C02270 /* kpreaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				5F5A49321489436D00C02270 /* kpreaderTests.h */,
-				5F5A49331489436D00C02270 /* kpreaderTests.m */,
-				5F5A492D1489436D00C02270 /* Supporting Files */,
-			);
-			path = kpreaderTests;
-			sourceTree = "<group>";
-		};
-		5F5A492D1489436D00C02270 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F5A492E1489436D00C02270 /* kpreaderTests-Info.plist */,
-				5F5A492F1489436D00C02270 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,25 +238,6 @@
 			productReference = 5F5A49041489436D00C02270 /* kpreader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F5A49241489436D00C02270 /* kpreaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F5A493A1489436D00C02270 /* Build configuration list for PBXNativeTarget "kpreaderTests" */;
-			buildPhases = (
-				5F5A49201489436D00C02270 /* Sources */,
-				5F5A49211489436D00C02270 /* Frameworks */,
-				5F5A49221489436D00C02270 /* Resources */,
-				5F5A49231489436D00C02270 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F5A492B1489436D00C02270 /* PBXTargetDependency */,
-			);
-			name = kpreaderTests;
-			productName = kpreaderTests;
-			productReference = 5F5A49251489436D00C02270 /* kpreaderTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,7 +260,6 @@
 			projectRoot = "";
 			targets = (
 				5F5A49031489436D00C02270 /* kpreader */,
-				5F5A49241489436D00C02270 /* kpreaderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,34 +271,14 @@
 			files = (
 				5F5A49131489436D00C02270 /* InfoPlist.strings in Resources */,
 				5F5A491C1489436D00C02270 /* MainStoryboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F5A49221489436D00C02270 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F5A49311489436D00C02270 /* InfoPlist.strings in Resources */,
+				5F526AB3148955A900AD6704 /* zbar-back.png in Resources */,
+				5F526AB4148955A900AD6704 /* zbar-help.html in Resources */,
+				5F526AB5148955A900AD6704 /* zbar-helpicons.png in Resources */,
+				5F526AB6148955A900AD6704 /* zbar-samples.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5F5A49231489436D00C02270 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F5A49001489436D00C02270 /* Sources */ = {
@@ -260,27 +287,11 @@
 			files = (
 				5F5A49151489436D00C02270 /* main.m in Sources */,
 				5F5A49191489436D00C02270 /* AppDelegate.m in Sources */,
-				5F5A491F1489436D00C02270 /* ViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F5A49201489436D00C02270 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F5A49341489436D00C02270 /* kpreaderTests.m in Sources */,
+				5F5A491F1489436D00C02270 /* ScanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5F5A492B1489436D00C02270 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F5A49031489436D00C02270 /* kpreader */;
-			targetProxy = 5F5A492A1489436D00C02270 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5F5A49111489436D00C02270 /* InfoPlist.strings */ = {
@@ -299,24 +310,16 @@
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
-		5F5A492F1489436D00C02270 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F5A49301489436D00C02270 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F5A49351489436D00C02270 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ALTERNATE_PERMISSIONS_FILES[sdk=*]" = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -341,7 +344,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos5.0]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos5.0]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -358,10 +362,18 @@
 		5F5A49381489436D00C02270 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Todd RIMES";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
 				INFOPLIST_FILE = "kpreader/kpreader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DBFB2ABE-8392-4A67-A499-E141850C6F1B";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -369,45 +381,21 @@
 		5F5A49391489436D00C02270 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Todd RIMES";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos5.0]" = "iPhone Distribution: Todd RIMES";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
 				INFOPLIST_FILE = "kpreader/kpreader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DBFB2ABE-8392-4A67-A499-E141850C6F1B";
+				"PROVISIONING_PROFILE[sdk=iphoneos5.0]" = "DBFB2ABE-8392-4A67-A499-E141850C6F1B";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5F5A493B1489436D00C02270 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kpreader.app/kpreader";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
-				INFOPLIST_FILE = "kpreaderTests/kpreaderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5F5A493C1489436D00C02270 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kpreader.app/kpreader";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "kpreader/kpreader-Prefix.pch";
-				INFOPLIST_FILE = "kpreaderTests/kpreaderTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -430,14 +418,7 @@
 				5F5A49391489436D00C02270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5F5A493A1489436D00C02270 /* Build configuration list for PBXNativeTarget "kpreaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F5A493B1489436D00C02270 /* Debug */,
-				5F5A493C1489436D00C02270 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
