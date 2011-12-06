@@ -1,10 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="10K549" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="lMn-8R-KIk">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
     </dependencies>
     <scenes>
+        <scene sceneID="Nqi-ei-vjK">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WuM-eN-4MW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="lMn-8R-KIk" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Esj-ez-0yC">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ebB-ha-Byc" kind="relationship" relationship="rootViewController" id="qfU-de-6QG"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-495" y="24"/>
+        </scene>
+        <scene sceneID="zfO-ur-uJR">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdu-Vy-B8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="ebB-ha-Byc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="73S-6w-uHF">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="nWl-vK-oWi">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Login" id="gHs-aM-sL2"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="244" y="-324"/>
+        </scene>
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -14,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xp4-N8-O6C">
-                                <rect key="frame" x="124" y="393" width="72" height="37"/>
+                                <rect key="frame" x="124" y="359" width="72" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Scan">
@@ -32,24 +68,33 @@
                                 <rect key="frame" x="20" y="7" width="280" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="No barcode scanned." id="aPx-l0-91M">
-                                <rect key="frame" x="20" y="205" width="280" height="180"/>
+                            <webView contentMode="scaleToFill" id="RbS-uE-Xnc">
+                                <rect key="frame" x="20" y="205" width="280" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="kqj-Tm-U1m"/>
                     <connections>
                         <outlet property="resultImage" destination="KUX-7e-nwF" id="3Ot-DD-tDO"/>
-                        <outlet property="resultText" destination="aPx-l0-91M" id="487-rE-Cqg"/>
                     </connections>
                 </viewController>
             </objects>
+            <point key="canvasLocation" x="252" y="292"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="ScanViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScanViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="scanButtonTapped"/>
+                <relationship kind="outlet" name="resultImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="resultText" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
